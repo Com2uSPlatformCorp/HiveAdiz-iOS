@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdiz"
-  spec.version      = "1.0.0-beta2"
+  spec.version      = "1.0.0-beta3"
   spec.summary      = "HiveAdiz optional framework"
   spec.description  = "HiveAdiz to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
