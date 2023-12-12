@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = "HiveAdiz"
+  spec.name         = "HiveAdizUnityPlugin"
   spec.version      = "1.0.0-beta1"
   spec.summary      = "HiveAdiz optional framework"
   spec.description  = "HiveAdiz to use ad service with Hive SDK"
@@ -14,11 +14,11 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
 
   spec.source       = { 
-    :http => "https://github.com/Com2uSPlatformCorp/HiveAdiz-iOS/releases/download/#{spec.version}/Hive_Adiz_iOS_v#{spec.version}.zip"
+    :http => "https://github.com/Com2uSPlatformCorp/HiveAdiz-iOS/releases/download/#{spec.version}/Hive_Adiz_iOS_Plugin_v#{spec.version}.zip"
   }
 
-  $vendored_frameworks_path = "Hive_Adiz_iOS_v#{spec.version}"
-  spec.vendored_frameworks =  "#{$vendored_frameworks_path}/HiveAdiz.xcframework"
+  $vendored_frameworks_path = "Hive_Adiz_iOS_Plugin_v#{spec.version}"
+  spec.vendored_frameworks =  "#{$vendored_frameworks_path}/HiveAdizUnityPlugin.xcframework"
 
-  spec.dependency 'Google-Mobile-Ads-SDK', '10.12.0'
+  spec.dependency 'HiveAdiz', "#{spec.version}"
 end
