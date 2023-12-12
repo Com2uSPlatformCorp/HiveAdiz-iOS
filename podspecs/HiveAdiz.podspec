@@ -19,6 +19,7 @@ Pod::Spec.new do |spec|
 
   $vendored_frameworks_path = "Hive_Adiz_iOS_v#{spec.version}"
   spec.vendored_frameworks =  "#{$vendored_frameworks_path}/HiveAdiz.xcframework"
-
+  spec.resource = "#{$vendored_resource_path}/HiveAdizResource.bundle"
+  
   spec.dependency 'Google-Mobile-Ads-SDK', '10.12.0'
 end
