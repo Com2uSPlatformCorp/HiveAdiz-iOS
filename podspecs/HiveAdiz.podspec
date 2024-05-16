@@ -21,6 +21,6 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks =  "#{$vendored_frameworks_path}/HiveAdiz.xcframework"
   spec.resource = "#{$vendored_frameworks_path}/HiveAdizResource.bundle"
   
-  spec.dependency 'Google-Mobile-Ads-SDK', '10.14.0'
+  spec.dependency 'Google-Mobile-Ads-SDK', '11.3.0'
   spec.dependency 'GoogleUserMessagingPlatform'
 end
