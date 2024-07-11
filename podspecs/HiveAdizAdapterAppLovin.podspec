@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdizAdapterAppLovin"
-  spec.version      = "2.0.0"
+  spec.version      = "2.0.1-beta1"
   spec.summary      = "HiveAdizAdapterAppLovin optional framework"
   spec.description  = "HiveAdizAdapterAppLovin to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
@@ -20,6 +20,6 @@ Pod::Spec.new do |spec|
   $vendored_frameworks_path = "Hive_Adiz_iOS_Adapter_v#{spec.version}"
   spec.vendored_frameworks =  "#{$vendored_frameworks_path}/HiveAdizAdapterAppLovin.xcframework"
   
-  spec.dependency 'GoogleMobileAdsMediationAppLovin', '12.4.1.0'
+  spec.dependency 'GoogleMobileAdsMediationAppLovin', '12.5.0.0'
   spec.dependency 'HiveAdiz', "#{spec.version}"
 end
