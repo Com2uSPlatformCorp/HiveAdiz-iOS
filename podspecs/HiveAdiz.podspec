@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdiz"
-  spec.version      = "2.0.1-beta1"
+  spec.version      = "2.0.1-beta2"
   spec.summary      = "HiveAdiz optional framework"
   spec.description  = "HiveAdiz to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
@@ -20,7 +20,8 @@ Pod::Spec.new do |spec|
   $vendored_frameworks_path = "Hive_Adiz_iOS_v#{spec.version}"
   spec.vendored_frameworks =  "#{$vendored_frameworks_path}/HiveAdiz.xcframework"
   spec.resource = "#{$vendored_frameworks_path}/HiveAdizResource.bundle"
+  spec.frameworks = 'AppTrackingTransparency'
   
   spec.dependency 'Google-Mobile-Ads-SDK', '11.6.0'
-  spec.dependency 'GoogleUserMessagingPlatform'
+  spec.dependency 'GoogleUserMessagingPlatform', '2.1.0'
 end
