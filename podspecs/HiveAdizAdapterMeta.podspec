@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdizAdapterMeta"
-  spec.version      = "2.0.1-beta2"
+  spec.version      = "2.0.1-beta3"
   spec.summary      = "HiveAdizAdapterMeta optional framework"
   spec.description  = "HiveAdizAdapterMeta to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"

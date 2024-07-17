@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdizAdapterPangle"
-  spec.version      = "2.0.1-beta2"
+  spec.version      = "2.0.1-beta3"
   spec.summary      = "HiveAdizAdapterPangle optional framework"
   spec.description  = "HiveAdizAdapterPangle to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
