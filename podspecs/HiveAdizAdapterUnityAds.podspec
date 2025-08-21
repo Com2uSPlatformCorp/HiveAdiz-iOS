@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdizAdapterUnityAds"
-  spec.version      = "3.0.0-beta1"
+  spec.version      = "3.0.0"
   spec.summary      = "HiveAdizAdapterUnityAds optional framework"
   spec.description  = "HiveAdizAdapterUnityAds to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
