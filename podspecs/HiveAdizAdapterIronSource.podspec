@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdizAdapterIronSource"
-  spec.version      = "3.0.0"
+  spec.version      = "4.0.0-alpha1"
   spec.summary      = "HiveAdizAdapterIronSource optional framework"
   spec.description  = "HiveAdizAdapterIronSource to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"
@@ -20,6 +20,6 @@ Pod::Spec.new do |spec|
   $vendored_frameworks_path = "Hive_Adiz_iOS_Adapter_v#{spec.version}"
   spec.vendored_frameworks =  "#{$vendored_frameworks_path}/HiveAdizAdapterIronSource.xcframework"
   
-  spec.dependency 'GoogleMobileAdsMediationIronSource', '8.8.0.0.0'
+  spec.dependency 'GoogleMobileAdsMediationIronSource', '9.6.1.0.0'
   spec.dependency 'HiveAdiz', "#{spec.version}"
 end
