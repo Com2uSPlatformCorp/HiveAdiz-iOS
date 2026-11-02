@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HiveAdizAdapterLiftoff"
-  spec.version      = "4.0.0-alpha2"
+  spec.version      = "4.0.0-beta1"
   spec.summary      = "HiveAdizAdapterLiftoff optional framework"
   spec.description  = "HiveAdizAdapterLiftoff to use ad service with Hive SDK"
   spec.homepage     = "https://developers.withhive.com/"

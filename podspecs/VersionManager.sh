@@ -1,6 +1,6 @@
 # 이미 podspec에 작성되어있는 버전
 PRE_IOS_VERSION="\"13.0\""
-PRE_ADIZ_VERSION="4.0.0-alpha1"
+PRE_ADIZ_VERSION="4.0.0-alpha2"
 
 PRE_ADMOB_VERSION="12.0.0"
 PRE_ADMOBUMP_VERSION="3.0.0"
@@ -14,7 +14,7 @@ PRE_IRONSOURCE_VERSION="8.8.0.0.0"
 # 신규로 podspec에 작성할 버전
 UPDATE_IOS_VERSION="\"13.0\""
 UPDATE_META_IOS_VERSION="\"15.0\""    # Meta 어댑터(GoogleMobileAdsMediationFacebook 6.22)는 iOS 15 이상 필요
-UPDATE_ADIZ_VERSION="4.0.0-alpha2"
+UPDATE_ADIZ_VERSION="4.0.0-beta1"
 
 UPDATE_ADMOB_VERSION="13.11.0"
 UPDATE_ADMOBUMP_VERSION="3.1.0"
